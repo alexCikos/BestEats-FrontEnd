@@ -4,7 +4,7 @@ import { categories } from "../data/data"
 const Catergory = () => {
   return (
     <div className="max-w-[1640px] m-auto px-4 py-12">
-      <h1 className="text-orange-600 font-bold text-4xl text-center">Top Rated Menu</h1>
+      <h1 className="text-orange-600 font-bold text-4xl text-center mb-10">Top Rated Menu</h1>
       {/* Catergories */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-6 py-6">
         {categories.map((item, index) => (
