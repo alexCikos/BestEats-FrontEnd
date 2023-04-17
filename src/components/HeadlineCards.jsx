@@ -20,7 +20,7 @@ const HeadlineCards = () => {
         {/* overlay */}
         <div className="absolute w-full h-full bg-black/50 rounded-xl text-white ">
           <p className="font-bold text-2xl px-2 pt-4 ">New Restaurants</p>
-          <p className="px-2">Through 8/26Added Daily</p>
+          <p className="px-2">Added Daily</p>
           <button className="border-white bg-white text-black mx-2 absolute bottom-4 ">Order Now</button>
         </div>
         <img
